@@ -546,3 +546,44 @@ Usuario 4:
 	</tbody>
 </table>
 
+---
+
+## Buyer Person
+
+Para el buyer person cree a Juan, quien nos ayuda a entender de manera mas practica el publico al que la aplicacion se esta dirigiendo.
+
+<img src="./img/Buyerperson.svg" alt="Buyer Person">
+
+---
+
+## Publico Objetivo
+
+Aqui se observa un esquema donde estan las caracterizticas que necesitamos evaluar a la hora de promocionar nuestra aplicacion.
+
+<img src="./img/Publico%20Objetivo.jpg" alt="publico objetivo">
+
+---
+
+## WireFrames UI
+
+Este es el bosquejo de la aplicacion vista en funcionalidad
+
+1. Inicio
+
+<img src="./img/Inicio.png" alt="Inicio de la aplicacion">
+
+2. FeedBack
+
+<img src="./img/Feedback.png" alt="Informacion de otros usuarios">
+
+3. Login
+   
+<img src="./img/Login.png" alt="Vista del Login">
+
+4. Registro
+
+<img src="./img/Registrar.png" alt="Vista del registro">
+
+5. Inicio Depues de registrar
+
+<img src="./img/Inicio%20Registrado.png" alt="Aplicacion despues de haber registrado">
