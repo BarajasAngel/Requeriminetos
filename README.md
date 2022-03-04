@@ -105,7 +105,7 @@ La aplicación debe ser totalmente responsiva para que permita su uso desde celu
                 Alcance de la Solucion
             </td>
             <td>
-                El programa podra registrar usuarios y tomar toda la infomacion necesaria para poder generar el perfil de la demanda llenando un formulario el cual tendra diferentes apartados dependiendo el tipo de demanda que se requiera, despues de esto se llevara a una pagina que se encargara de tomar datos bancarios para realizar el pago del tramite de la demanda, una vez finalizado el administrador podra mirar el saldo recibido dentro de la aplicacion y de esta manera dar una actualizacion del proceso de la demanda en todo momento, el cual sera notificado al cliente directamente a su correo.
+               El programa podrá registrar usuarios y tomar toda la información necesaria para poder generar el perfil de la demanda llenando un formulario el cual tendrá diferentes apartados dependiendo el tipo de demanda que se requiera, después de esto se llevara a una página que se encargara de tomar datos bancarios para realizar el pago del trámite de la demanda, una vez finalizado el administrador podrá mirar el saldo recibido dentro de la aplicación y de esta manera dar una actualización del proceso de la demanda en todo momento, el cual será notificado al cliente directamente a su correo.
             </td>
         </tr>  
         <tr>
@@ -113,7 +113,7 @@ La aplicación debe ser totalmente responsiva para que permita su uso desde celu
                 Requerimientos Funcionales y criterios de aceptación 
             </td>
             <td>
-                El usuario tendra que registrarse, la informacion del usuario se registrara dentro de una base de datos sql para el correcto manejo y gestion de sesiones en la aplicacion, posteriormente la informacion que se registra dentro del formulario de la demanda sera agrupado y asignado a un bloque de memoria en la base ded atos identificado por el usuario que lo genero. El pago sera gestionado por una Api, la cual se encargara de mandar los datos de las transacciones a una base de datos donde de igualmanera el pago se vinculara al usuario que realizo la peticion de demanda, esta infomacion podra ser consultada directamente desde el perfil de administrador. El administrador podra mandar un correo con la situacion actual de la demanda, este correo sera mandado directamente desde la aplicion, para ello se requerira un correo con el dominio de nuestra aplicacion, de esta manera le gestionamos seguriad al cliente y podemos evitar fraudes.
+               El usuario tendrá que registrarse, la información del usuario se registrará dentro de una base de datos sql para el correcto manejo y gestión de sesiones en la aplicación, posteriormente la información que se registra dentro del formulario de la demanda será agrupado y asignado a un bloque de memoria en la base de datos identificado por el usuario que lo genero. El pago será gestionado por una Api, la cual se encargará de mandar los datos de las transacciones a una base de datos donde de igual manera el pago se vinculará al usuario que realizo la petición de demanda, esta información podrá ser consultada directamente desde el perfil de administrador. El administrador podrá mandar un correo con la situación actual de la demanda, este correo será mandado directamente desde la aplican, para ello se requerirá un correo con el dominio de nuestra aplicación, de esta manera le gestionamos seguridad al cliente y podemos evitar fraudes.
             </td>
         </tr>  
         <tr>
@@ -121,7 +121,7 @@ La aplicación debe ser totalmente responsiva para que permita su uso desde celu
             Requerimientos no funcionales
             </td>
             <td>
-                La aplicacion contara con un color azul y blanco predominantes, ademas de que tambien tendra un logotipo de la dependencia que realizo la solicitud. la aplicacion tambien tiene que ser responsive para que los usuarios puedan consultar el proceso de sus demandas desde cualqueir dispositivo, aparte de esto se busca una interface llamativa y facil de usar para que el usuario no requiera de ayuda extra para hacer su proceso completamente solo.
+               La aplicación contará con un color azul y blanco predominantes, además de que también tendrá un logotipo de la dependencia que realizo la solicitud. la aplicación también tiene que ser responsive para que los usuarios puedan consultar el proceso de sus demandas desde cualquier dispositivo, aparte de esto se busca una interfaz llamativa y fácil de usar para que el usuario no requiera de ayuda extra para hacer su proceso completamente solo.
             </td>
         </tr>  
         <tr>
@@ -129,11 +129,10 @@ La aplicación debe ser totalmente responsiva para que permita su uso desde celu
                 Precondiciones
             </td>
             <td>
-                Requerimos de un dominio para darle host a la aplicacion al igual que un correo correspndiente con el dominio para poder realizar las notificaciones del proceso de demanda, es importante tener tambien un servidor para la base de datos ya que se estara utilizando MySQL.
+               Requerimos de un dominio para darle host a la aplicación al igual que un correo correspondiente con el dominio para poder realizar las notificaciones del proceso de demanda, es importante tener también un servidor para la base de datos ya que se estará utilizando MySQL.
             </td>
         </tr>  
         <tr>
-            <td>
                 <tr>
                   <td>
                       Tipo de desarrollo
@@ -157,8 +156,7 @@ La aplicación debe ser totalmente responsiva para que permita su uso desde celu
                     <td>
                         C# y JavaScirpt
                     </td>
-                </tr>
-            </td>
+                </tr>            
         </tr>  
     </tbody>
 </table>
@@ -188,29 +186,29 @@ La aplicación debe ser totalmente responsiva para que permita su uso desde celu
 		<tr>
 			<td>1</td>
 			<td>Toma de Requerimientos</td>
-			<td>Se analizara todos los requerminetos necesarios para el completo funcionamiento de la aplicacion</td>
+			<td>Se analizará todos los requerimientos necesarios para el completo funcionamiento de la aplicación</td>
 			<td>Lider de funcionalidad</td>
 			<td>18/02/2022</td>
 			<td>25/02/2022</td>
-			<td>Se debe poder tener un formato adecuado de Requerimientos para poder tener una facilidad legibilidad de lo que el cliente quiere que tenga su aplicacion</td>
+			<td>Se debe poder tener un formato adecuado de Requerimientos para poder tener una facilidad legibilidad de lo que el cliente quiere que tenga su aplicación</td>
 		</tr>
 		<tr>
 			<td>2</td>
 			<td>Determinar el Buyer Person</td>
-			<td>Se debe hacer un estudio que determine que buyer person estara destinada la aplicacion</td>
+			<td>Se debe hacer un estudio que determine que buyer person estará destinada la aplicación</td>
 			<td>Lider de funcionalidad</td>
 			<td>25/02/2022</td>
 			<td>02/03/2022</td>
-			<td>Para poder avanzar con la apliaccion tiene que haber una correcta identificacion del buyer person.</td>
+			<td>Para poder avanzar con la aplicación tiene que haber una correcta identificación del buyer person.</td>
 		</tr>
 		<tr>
 			<td>3</td>
-			<td>Publico Objetivo</td>
-			<td>Deliminar el publico objetivo</td>
+			<td>Público Objetivo</td>
+			<td>Delimitar el público objetivo</td>
 			<td>Lider de funcionalidad</td>
 			<td>02/03/2022</td>
 			<td>05/03/2022</td>
-			<td>La aplicacion debe contar con un publico objetivo de manera que sepamos a quienes esta dirijido esta aplicacion</td>
+			<td>La aplicación debe contar con un público objetivo de manera que sepamos a quienes está dirigido esta aplicación</td>
 		</tr>
 		<tr>
 			<td>4</td>
@@ -307,15 +305,13 @@ Usuario 1:
 			<th colspan="4" ">Características/Funcionalidad</th>			
 		</tr>
 		<tr>
-			<td colspan="4" style="text-align: justify;">Me gustaria que antes de realizar una demanda pudiera tener acceso a un asesoriamiento por parte de un abogado 
-				y asi poder llenar mi solicitud de manera mas clara y concisa, ya que en algunos casos el tramite puede llegar a emplear palabras que no son de mi uso cotidiano.</td>
+			<td colspan="4" style="text-align: justify;">Me gustaria que antes de realizar una demanda pudiera tener acceso a un asesoriamiento por parte de un abogado y asi poder llenar mi solicitud de manera mas clara y concisa, ya que en algunos casos el tramite puede llegar a emplear palabras que no son de mi uso cotidiano.</td>
 		</tr>
 		<tr>
 			<th colspan="4" >Razon/Resultado</th>
 		</tr>
 		<tr>
-			<td colspan="4" style="text-align: justify;">Con la finalidad de que haya una memjor comprension a la hora de realizar el proceso, se ha decidio agregar un 
-				apartado de chat en el cual podra cuestionar diferentes dudas y seran resultas por un abogado a cargo</td>
+			<td colspan="4" style="text-align: justify;">Con la finalidad de que haya una mejor comprensión a la hora de realizar el proceso, se ha decidió agregar un apartado de chat en el cual podrá cuestionar diferentes dudas y serán resultas por un abogado a cargo</td>
 		</tr>
 		<tr>
 			<th colspan="4">Criterios de Aceptacion</th>
@@ -384,7 +380,7 @@ Usuario 2:
 			<th>Evento</th>
 		</tr>
 		<tr>
-			<td style="text-align: center;">2</td>
+			<td style="text-align: center;">1</td>
 			<td>Perfil de abogados y Feedback</td>
 			<td>Se mostrara en la pagina principal los skills de los abogados que atienden la aplicacion</td>
 			<td>Desde el comienzo de la aplicacion se podra ver</td>
